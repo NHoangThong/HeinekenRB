@@ -14,5 +14,7 @@
 
         // Liên kết với Location
         public Location ?Location { get; set; }
+
+        public virtual ICollection<CampaignRobotMachine> CampaignRobotMachines { get; set; } = new List<CampaignRobotMachine>();
     }
 }

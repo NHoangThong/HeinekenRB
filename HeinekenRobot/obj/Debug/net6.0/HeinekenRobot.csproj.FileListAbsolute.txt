@@ -64,3 +64,4 @@ C:\Users\Hoang Thong\Desktop\ThucTap\HeinekenRobot\HeinekenRobot\obj\Debug\net6.
 C:\Users\Hoang Thong\Desktop\ThucTap\HeinekenRobot\HeinekenRobot\obj\Debug\net6.0\HeinekenRobot.pdb
 C:\Users\Hoang Thong\Desktop\ThucTap\HeinekenRobot\HeinekenRobot\obj\Debug\net6.0\HeinekenRobot.genruntimeconfig.cache
 C:\Users\Hoang Thong\Desktop\ThucTap\HeinekenRobot\HeinekenRobot\obj\Debug\net6.0\ref\HeinekenRobot.dll
+C:\Users\Hoang Thong\Desktop\ThucTap\HeinekenRobot\HeinekenRobot\obj\Debug\net6.0\HeinekenRobot.sourcelink.json
