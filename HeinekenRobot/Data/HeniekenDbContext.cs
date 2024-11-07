@@ -21,6 +21,12 @@ namespace HeinekenRobot.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
+            //modelBuilder.Entity<RobotType>().HasData(
+            //      new RobotType { RobotTypeId = "1", TypeName = "Silverbot" },
+            //      new RobotType { RobotTypeId = "2", TypeName = "DeliveryBox" }
+            // );
+
             // CampaignRobotMachine
             modelBuilder.Entity<CampaignRobotMachine>()
                 .HasOne(crm => crm.Campaign)

@@ -9,8 +9,7 @@
         public DateTime EndDate { get; set; }
         public string Status { get; set; } = string.Empty;
         public int RegionId { get; set; }
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
-        public DateTime UpdatedAt { get; set; } = DateTime.Now;
+      
 
         // Liên kết với Region
         public Region ? Region { get; set; }

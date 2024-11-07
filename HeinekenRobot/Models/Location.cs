@@ -1,4 +1,6 @@
-﻿namespace HeinekenRobot.Models
+﻿using System.Text.Json.Serialization;
+
+namespace HeinekenRobot.Models
 {
     public class Location
     {
@@ -7,11 +9,12 @@
         public int RegionId { get; set; }
         public decimal Latitude { get; set; }
         public decimal Longitude { get; set; }
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
-        public DateTime UpdatedAt { get; set; } = DateTime.Now;
+
 
         // Liên kết với Region
+        [JsonIgnore]
         public  Region? Region { get; set; }
+        [JsonIgnore]
         public virtual ICollection<CampaignRobotMachine> CampaignRobotMachines { get; set; } = new List<CampaignRobotMachine>();
     }
 }

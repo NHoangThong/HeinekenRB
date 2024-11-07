@@ -14,6 +14,7 @@ builder.Services.AddScoped<IRobotRepository, RobotRepository>();
 builder.Services.AddScoped<IRobotService, RobotService>();
 
 
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

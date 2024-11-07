@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "HeinekenRobot.Controllers.RobotController",
+    "Method": "PostRobot",
+    "RelativePath": "api/Robot/AddRobot",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "robot",
+        "Type": "HeinekenRobot.Models.Robot",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.RobotController",
     "Method": "GetAll",
     "RelativePath": "api/Robot/GetAll",
     "HttpMethod": "GET",
@@ -10,24 +26,19 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HeinekenRobot.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "HeinekenRobot.Controllers.RobotController",
+    "Method": "GetRobot",
+    "RelativePath": "api/Robot/GetRobot/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HeinekenRobot.WeatherForecast, HeinekenRobot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
   }
 ]

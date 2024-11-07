@@ -4,6 +4,7 @@ using HeinekenRobot.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HeinekenRobot.Migrations
 {
     [DbContext(typeof(HeniekenDbContext))]
-    partial class HeniekenDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241105040120_UpdateRobotModel")]
+    partial class UpdateRobotModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -29,6 +31,9 @@ namespace HeinekenRobot.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CampaignId"), 1L, 1);
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -50,6 +55,9 @@ namespace HeinekenRobot.Migrations
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("CampaignId");
 
@@ -106,6 +114,9 @@ namespace HeinekenRobot.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CustomerId"), 1L, 1);
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -121,6 +132,9 @@ namespace HeinekenRobot.Migrations
                     b.Property<int>("PointsBalance")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
                     b.HasKey("CustomerId");
 
                     b.ToTable("Customers");
@@ -133,6 +147,9 @@ namespace HeinekenRobot.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("GiftId"), 1L, 1);
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -150,6 +167,9 @@ namespace HeinekenRobot.Migrations
 
                     b.Property<int>("TotalCount")
                         .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("GiftId");
 
@@ -206,6 +226,9 @@ namespace HeinekenRobot.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LocationId"), 1L, 1);
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<decimal>("Latitude")
                         .HasColumnType("decimal(18,2)");
 
@@ -218,6 +241,9 @@ namespace HeinekenRobot.Migrations
 
                     b.Property<int>("RegionId")
                         .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("LocationId");
 
@@ -238,6 +264,9 @@ namespace HeinekenRobot.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime>("LastServiceDate")
                         .HasColumnType("datetime2");
 
@@ -251,6 +280,9 @@ namespace HeinekenRobot.Migrations
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("MachineId");
 
@@ -267,6 +299,9 @@ namespace HeinekenRobot.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RegionId"), 1L, 1);
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Province")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -274,6 +309,9 @@ namespace HeinekenRobot.Migrations
                     b.Property<string>("RegionName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("RegionId");
 
@@ -291,6 +329,9 @@ namespace HeinekenRobot.Migrations
                     b.Property<int>("CampaignId")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<decimal>("GiftChance")
                         .HasColumnType("decimal(18,2)");
 
@@ -302,6 +343,9 @@ namespace HeinekenRobot.Migrations
 
                     b.Property<int>("PointRangeMin")
                         .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("RuleId");
 
@@ -323,6 +367,9 @@ namespace HeinekenRobot.Migrations
                     b.Property<int>("BatteryLevel")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime>("LastAccessTime")
                         .HasColumnType("datetime2");
 
@@ -340,6 +387,9 @@ namespace HeinekenRobot.Migrations
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("RobotId");
 
@@ -364,18 +414,6 @@ namespace HeinekenRobot.Migrations
                     b.HasKey("RobotTypeId");
 
                     b.ToTable("RobotType");
-
-                    b.HasData(
-                        new
-                        {
-                            RobotTypeId = "1",
-                            TypeName = "Silverbot"
-                        },
-                        new
-                        {
-                            RobotTypeId = "2",
-                            TypeName = "DeliveryBox"
-                        });
                 });
 
             modelBuilder.Entity("HeinekenRobot.Models.Transaction", b =>
@@ -440,6 +478,9 @@ namespace HeinekenRobot.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"), 1L, 1);
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -455,6 +496,9 @@ namespace HeinekenRobot.Migrations
                     b.Property<string>("Role")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Username")
                         .IsRequired()

@@ -17,5 +17,15 @@ namespace HeinekenRobot.Repository
         {
             return await _context.Robots.ToListAsync();
         }
+       public async Task<Robot> GetRobotById(int id)
+       {
+            return await _context.Robots.Include(r => r.Location).Include(r => r.RobotType).FirstOrDefaultAsync(r => r.RobotId == id);
+
+       }
+        public async Task AddRobot(Robot robot)
+        {
+            await _context.Robots.AddAsync(robot);
+            await _context.SaveChangesAsync();
+        }
     }
 }

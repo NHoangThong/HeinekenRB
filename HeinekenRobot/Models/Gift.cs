@@ -8,7 +8,6 @@
         public int TotalCount { get; set; } = 0;
         public int RedeemedCount { get; set; } = 0;
         public int ExpiredCount { get; set; } = 0;
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
-        public DateTime UpdatedAt { get; set; } = DateTime.Now;
+      
     }
 }
