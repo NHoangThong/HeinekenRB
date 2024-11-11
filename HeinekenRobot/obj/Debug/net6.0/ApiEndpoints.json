@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "HeinekenRobot.Controllers.RobotController",
+    "Method": "DeleteRobot",
+    "RelativePath": "api/Robot/DeleteRobot/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.RobotController",
     "Method": "GetAll",
     "RelativePath": "api/Robot/GetAll",
     "HttpMethod": "GET",
@@ -36,6 +52,27 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.RobotController",
+    "Method": "UpdateRobot",
+    "RelativePath": "api/Robot/UpdateRobot/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "robot",
+        "Type": "HeinekenRobot.Models.Robot",
         "IsRequired": true
       }
     ],

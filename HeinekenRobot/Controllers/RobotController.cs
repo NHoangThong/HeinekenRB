@@ -42,5 +42,37 @@ namespace HeinekenRobot.Controllers
                 return NotFound();
             return Ok(rb);
         }
+
+        [HttpPut("UpdateRobot/{id}")]
+        public async Task<IActionResult> UpdateRobot(int id, [FromBody] Robot robot)
+        {
+         
+
+            try
+            {
+                robot.RobotId= id ;
+                await _service.UpdateRobot(robot);
+                return Ok("Robot updated successfully.");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            
+        }
+        [HttpDelete("DeleteRobot/{id}")]
+        public async Task<IActionResult> DeleteRobot(int id)
+        {
+            try
+            {
+                await _service.DeleteRobot(id);
+                return Ok("Robot deleted successfully.");
+            }
+           
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }
