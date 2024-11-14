@@ -1,5 +1,68 @@
 [
   {
+    "ContainingType": "HeinekenRobot.Controllers.RecycleMachineController",
+    "Method": "AddMachine",
+    "RelativePath": "api/RecycleMachine/AppMachine",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recycleMachine",
+        "Type": "HeinekenRobot.Models.RecycleMachine",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.RecycleMachineController",
+    "Method": "GetMachineDetail",
+    "RelativePath": "api/RecycleMachine/GetMachineDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.RecycleMachineController",
+    "Method": "GetMachines",
+    "RelativePath": "api/RecycleMachine/GetMachines",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.RecycleMachineController",
+    "Method": "UpdateMachine",
+    "RelativePath": "api/RecycleMachine/UpdateMachine/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "recycleMachine",
+        "Type": "HeinekenRobot.Models.RecycleMachine",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HeinekenRobot.Controllers.RobotController",
     "Method": "PostRobot",
     "RelativePath": "api/Robot/AddRobot",

@@ -13,6 +13,8 @@ builder.Services.AddDbContext<HeniekenDbContext>(options =>
 builder.Services.AddScoped<IRobotRepository, RobotRepository>();
 builder.Services.AddScoped<IRobotService, RobotService>();
 
+builder.Services.AddScoped<IRecycleMachineRepository, RecycleMachineRepository>();
+builder.Services.AddScoped<IRecycleMachineService, RecycleMachineService>();
 
 
 builder.Services.AddControllers();
