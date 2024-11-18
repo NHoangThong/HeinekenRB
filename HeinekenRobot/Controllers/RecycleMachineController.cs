@@ -2,6 +2,7 @@
 using HeinekenRobot.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Reflection.PortableExecutable;
 
 namespace HeinekenRobot.Controllers
@@ -40,7 +41,7 @@ namespace HeinekenRobot.Controllers
         }
 
         [HttpGet("GetMachineDetail")]
-        public async Task<IActionResult> GetMachineDetail(int id)
+        public async Task<IActionResult> GetMachineDetail(string id)
         {
             var machine= await _servive.GetMachineDetail(id);
             if (machine == null)
@@ -52,7 +53,7 @@ namespace HeinekenRobot.Controllers
         }
 
         [HttpPut("UpdateMachine/{id}")]
-        public async Task<IActionResult> UpdateMachine(int id, [FromBody] RecycleMachine recycleMachine)
+        public async Task<IActionResult> UpdateMachine(string id, [FromBody] RecycleMachine recycleMachine)
         {
             try
             {
@@ -66,6 +67,19 @@ namespace HeinekenRobot.Controllers
                 return NotFound(ex.Message);
             }
         }
-
+        [HttpDelete("DeleteMachine/{id}")]
+        public async Task<IActionResult> DeleteMachine(string id)
+        {
+            try
+            {
+                await _servive.Delete_machine(id);
+                return Ok("Recycle machine deleted successfully.");
+            }
+         
+            catch (Exception ex )
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

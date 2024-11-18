@@ -75,8 +75,9 @@ namespace HeinekenRobot.Migrations
                     b.Property<int>("LocationId")
                         .HasColumnType("int");
 
-                    b.Property<int>("MachineId")
-                        .HasColumnType("int");
+                    b.Property<string>("MachineId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("RobotId")
                         .HasColumnType("int");
@@ -228,11 +229,8 @@ namespace HeinekenRobot.Migrations
 
             modelBuilder.Entity("HeinekenRobot.Models.RecycleMachine", b =>
                 {
-                    b.Property<int>("MachineId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MachineId"), 1L, 1);
+                    b.Property<string>("MachineId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ContainerStatus")
                         .IsRequired()
@@ -249,10 +247,6 @@ namespace HeinekenRobot.Migrations
 
                     b.Property<int>("LocationId")
                         .HasColumnType("int");
-
-                    b.Property<string>("MachineCode")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Status")
                         .IsRequired()
@@ -395,8 +389,9 @@ namespace HeinekenRobot.Migrations
                     b.Property<int>("LocationId")
                         .HasColumnType("int");
 
-                    b.Property<int>("MachineId")
-                        .HasColumnType("int");
+                    b.Property<string>("MachineId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("PointsEarned")
                         .HasColumnType("int");
@@ -546,7 +541,7 @@ namespace HeinekenRobot.Migrations
             modelBuilder.Entity("HeinekenRobot.Models.RecycleMachine", b =>
                 {
                     b.HasOne("HeinekenRobot.Models.Location", "Location")
-                        .WithMany()
+                        .WithMany("RecycleMachines")
                         .HasForeignKey("LocationId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -576,7 +571,7 @@ namespace HeinekenRobot.Migrations
             modelBuilder.Entity("HeinekenRobot.Models.Robot", b =>
                 {
                     b.HasOne("HeinekenRobot.Models.Location", "Location")
-                        .WithMany()
+                        .WithMany("Robots")
                         .HasForeignKey("LocationId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -660,6 +655,10 @@ namespace HeinekenRobot.Migrations
             modelBuilder.Entity("HeinekenRobot.Models.Location", b =>
                 {
                     b.Navigation("CampaignRobotMachines");
+
+                    b.Navigation("RecycleMachines");
+
+                    b.Navigation("Robots");
                 });
 
             modelBuilder.Entity("HeinekenRobot.Models.RecycleMachine", b =>

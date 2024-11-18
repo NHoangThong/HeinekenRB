@@ -1,5 +1,47 @@
 [
   {
+    "ContainingType": "HeinekenRobot.Controllers.LocationController",
+    "Method": "AddLocation",
+    "RelativePath": "api/Location/AddLocation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "location",
+        "Type": "HeinekenRobot.Models.Location",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.LocationController",
+    "Method": "GetLocation",
+    "RelativePath": "api/Location/GetLocation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.LocationController",
+    "Method": "GetLocationDetails",
+    "RelativePath": "api/Location/GetLocationID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HeinekenRobot.Controllers.RecycleMachineController",
     "Method": "AddMachine",
     "RelativePath": "api/RecycleMachine/AppMachine",
@@ -17,6 +59,22 @@
   },
   {
     "ContainingType": "HeinekenRobot.Controllers.RecycleMachineController",
+    "Method": "DeleteMachine",
+    "RelativePath": "api/RecycleMachine/DeleteMachine/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.RecycleMachineController",
     "Method": "GetMachineDetail",
     "RelativePath": "api/RecycleMachine/GetMachineDetail",
     "HttpMethod": "GET",
@@ -25,7 +83,7 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -51,7 +109,7 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       },
       {

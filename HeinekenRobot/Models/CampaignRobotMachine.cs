@@ -10,7 +10,7 @@ namespace HeinekenRobot.Models
 
         public int CampaignId { get; set; }
         public int RobotId { get; set; }
-        public int MachineId { get; set; }
+        public string MachineId { get; set; }
         public int LocationId { get; set; }
 
         public DateTime AssignedDate { get; set; } = DateTime.Now;

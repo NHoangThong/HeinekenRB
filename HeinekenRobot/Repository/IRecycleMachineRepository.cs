@@ -6,7 +6,9 @@ namespace HeinekenRobot.Repository
     {
         Task<IEnumerable<RecycleMachine>> GetALl();
         Task Add_Machine(RecycleMachine recycleMachine);
-        Task<RecycleMachine> GetMachineDetail(int machineId);
+        Task<RecycleMachine> GetMachineDetail(string machineId);
         Task Upadate_Machine(RecycleMachine machine);
+        
+        Task Delete_machine(string machineId);
     }
 }

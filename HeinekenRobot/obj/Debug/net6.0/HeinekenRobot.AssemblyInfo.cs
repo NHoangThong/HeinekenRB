@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HeinekenRobot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bb682f063dccf0be4cae7bd658a457d5f27e0bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19ab9ee545e809387e56efb15b6978f3825754d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("HeinekenRobot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HeinekenRobot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,7 +5,7 @@
         public int TransactionId { get; set; }
         public int CampaignId { get; set; }
         public int RobotId { get; set; }
-        public int MachineId { get; set; }
+        public string MachineId { get; set; }
         public int LocationId { get; set; }
         public int CustomerId { get; set; }
         public int PointsEarned { get; set; } = 0;
