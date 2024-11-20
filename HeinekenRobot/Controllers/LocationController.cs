@@ -1,5 +1,5 @@
 ﻿using HeinekenRobot.Models;
-using HeinekenRobot.Service;
+using HeinekenRobot.Service.LocationFolder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -45,6 +45,40 @@ namespace HeinekenRobot.Controllers
             }
 
             return Ok(locationDetails);
+        }
+
+        [HttpPut("UpdateLocation/{id}")]
+
+        public async Task<IActionResult> UpdateLocation(int id, [FromBody] Location location)
+        {
+            if (id != location.LocationId)
+            {
+                return BadRequest("Location ID mismatch.");
+            }
+            try
+            {
+                await _service.updateLocation(location);
+                return Ok("Success");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete("DeleteLocation/{id}")]
+
+        public async Task<IActionResult> DeleteLocation(int id)
+        {
+            try
+            {
+                await _service.DeleteLocation(id);
+                return Ok("Location deleted successfully.");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }

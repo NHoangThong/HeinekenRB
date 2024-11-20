@@ -1,21 +1,22 @@
 ﻿using HeinekenRobot.Models;
-using HeinekenRobot.Repository;
+using HeinekenRobot.Repository.LocationFolder;
 
-namespace HeinekenRobot.Service
+namespace HeinekenRobot.Service.LocationFolder
 {
-    public class LocationService:ILocationService
+    public class LocationService : ILocationService
     {
         private readonly ILocationRepository _repository;
 
-        public LocationService(ILocationRepository repository) {
-            _repository= repository;
+        public LocationService(ILocationRepository repository)
+        {
+            _repository = repository;
         }
         public async Task<IEnumerable<Location>> GetAllLocations()
         {
             var locations = await _repository.GetAllLocations();
 
             return locations;
-           
+
         }
         public async Task<bool> AddLocation(Location location)
         {
@@ -48,7 +49,7 @@ namespace HeinekenRobot.Service
                 {
                     DeviceName = r.RobotName,
                     DeviceType = "Robot",
-                   
+
                     ConnectionStatus = r.Status
 
                 }).Union(
@@ -56,7 +57,7 @@ namespace HeinekenRobot.Service
                     {
                         DeviceName = m.MachineId,
                         DeviceType = "Recycle Machine",
-                     
+
                         ConnectionStatus = m.Status
                     })
                 )
@@ -64,5 +65,42 @@ namespace HeinekenRobot.Service
 
             return locationDetails;
         }
+
+        public async Task updateLocation(Location location)
+        {
+            var check = await _repository.GetLocationByIdAsync(location.LocationId);
+            if (check == null)
+            {
+                throw new KeyNotFoundException("Location not found.");
+            }
+
+
+
+            // Cập nhật các thuộc tính
+            check.Name = location.Name;
+            check.RegionId = location.RegionId;
+            check.Latitude = location.Latitude;
+            check.Longitude = location.Longitude;
+
+
+            await _repository.updateLocation(check);
+        }
+
+        public async Task DeleteLocation(int locationId)
+        {
+            var location = await _repository.GetLocationByIdAsync(locationId);
+            if (location == null)
+            {
+                throw new KeyNotFoundException("Location not found.");
+            }
+
+            if (await _repository.IsLocationOperated(locationId))
+            {
+                throw new InvalidOperationException("Cannot delete a location that has been operated.");
+
+            }
+            await _repository.DeleteLocation(locationId);
+        }
+
     }
 }

@@ -1,6 +1,12 @@
 using HeinekenRobot.Data;
-using HeinekenRobot.Repository;
-using HeinekenRobot.Service;
+using HeinekenRobot.Repository.GiftFolder;
+using HeinekenRobot.Repository.LocationFolder;
+using HeinekenRobot.Repository.RecycleMachineFolder;
+using HeinekenRobot.Repository.RobotFolder;
+using HeinekenRobot.Service.GiftFolder;
+using HeinekenRobot.Service.LocationFolder;
+using HeinekenRobot.Service.RecycleMachineFolder;
+using HeinekenRobot.Service.RobotFolder;
 using Microsoft.EntityFrameworkCore;
 using System;
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +24,9 @@ builder.Services.AddScoped<IRecycleMachineService, RecycleMachineService>();
 
 builder.Services.AddScoped<ILocationRepository, LocationRepository>();
 builder.Services.AddScoped<ILocationService, LocationService>();
+
+builder.Services.AddScoped<IGiftRepository, GiftRepository>();
+builder.Services.AddScoped<IGiftService, GiftService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

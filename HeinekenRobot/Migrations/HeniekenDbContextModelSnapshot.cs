@@ -109,15 +109,18 @@ namespace HeinekenRobot.Migrations
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(15)
+                        .HasColumnType("nvarchar(15)");
 
                     b.Property<int>("PointsBalance")
                         .HasColumnType("int");
@@ -509,7 +512,7 @@ namespace HeinekenRobot.Migrations
                         .IsRequired();
 
                     b.HasOne("HeinekenRobot.Models.Gift", "Gift")
-                        .WithMany()
+                        .WithMany("GiftRedemptions")
                         .HasForeignKey("GiftId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -558,7 +561,7 @@ namespace HeinekenRobot.Migrations
                         .IsRequired();
 
                     b.HasOne("HeinekenRobot.Models.Gift", "Gift")
-                        .WithMany()
+                        .WithMany("RewardRules")
                         .HasForeignKey("GiftId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -650,6 +653,13 @@ namespace HeinekenRobot.Migrations
             modelBuilder.Entity("HeinekenRobot.Models.Customer", b =>
                 {
                     b.Navigation("Transactions");
+                });
+
+            modelBuilder.Entity("HeinekenRobot.Models.Gift", b =>
+                {
+                    b.Navigation("GiftRedemptions");
+
+                    b.Navigation("RewardRules");
                 });
 
             modelBuilder.Entity("HeinekenRobot.Models.Location", b =>

@@ -8,6 +8,9 @@
         public int TotalCount { get; set; } = 0;
         public int RedeemedCount { get; set; } = 0;
         public int ExpiredCount { get; set; } = 0;
-      
+
+        public virtual ICollection<RewardRule> RewardRules { get; set; } = new List<RewardRule>();
+        public virtual ICollection<GiftRedemption> GiftRedemptions { get; set; } = new List<GiftRedemption>();
+
     }
 }

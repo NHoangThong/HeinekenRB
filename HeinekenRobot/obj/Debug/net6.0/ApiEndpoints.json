@@ -1,5 +1,84 @@
 [
   {
+    "ContainingType": "HeinekenRobot.Controllers.GiftController",
+    "Method": "AddGift",
+    "RelativePath": "api/Gift/AddGift",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gift",
+        "Type": "HeinekenRobot.Models.Gift",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.GiftController",
+    "Method": "DeleteGift",
+    "RelativePath": "api/Gift/DeleteGift/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.GiftController",
+    "Method": "GetGiftDetails",
+    "RelativePath": "api/Gift/GetGiftDetails/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.GiftController",
+    "Method": "GetGifts",
+    "RelativePath": "api/Gift/GetGifts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.GiftController",
+    "Method": "UpdateGift",
+    "RelativePath": "api/Gift/UpdateGift/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedGift",
+        "Type": "HeinekenRobot.Models.Gift",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HeinekenRobot.Controllers.LocationController",
     "Method": "AddLocation",
     "RelativePath": "api/Location/AddLocation",
@@ -10,6 +89,22 @@
       {
         "Name": "location",
         "Type": "HeinekenRobot.Models.Location",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.LocationController",
+    "Method": "DeleteLocation",
+    "RelativePath": "api/Location/DeleteLocation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -37,6 +132,27 @@
         "Name": "locationId",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.LocationController",
+    "Method": "UpdateLocation",
+    "RelativePath": "api/Location/UpdateLocation/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "location",
+        "Type": "HeinekenRobot.Models.Location",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
