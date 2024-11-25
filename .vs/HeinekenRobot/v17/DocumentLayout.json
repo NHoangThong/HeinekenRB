@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\controllers\\rewardrulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\controllers\\rewardrulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\service\\rewardrulefolder\\rewardruleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\service\\rewardrulefolder\\rewardruleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\service\\rewardrulefolder\\irewardruleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\service\\rewardrulefolder\\irewardruleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\repository\\rewardrulefolder\\rewardrulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\repository\\rewardrulefolder\\rewardrulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\repository\\rewardrulefolder\\irewardrulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\repository\\rewardrulefolder\\irewardrulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\rewardrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\rewardrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\service\\giftfolder\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\service\\giftfolder\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\service\\giftfolder\\igiftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\service\\giftfolder\\igiftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\controllers\\recyclemachinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\controllers\\recyclemachinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\service\\giftfolder\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\service\\giftfolder\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\repository\\giftfolder\\giftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +57,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\repository\\giftfolder\\igiftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\repository\\giftfolder\\igiftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\recyclemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\recyclemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\giftredemption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\giftredemption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\service\\giftfolder\\igiftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\service\\giftfolder\\igiftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\service\\locationfolder\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,14 +103,6 @@
       "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\repository\\locationfolder\\ilocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\rewardrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\rewardrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\migrations\\20241119070506_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\migrations\\20241119070506_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,32 +119,8 @@
       "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\giftredemption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\giftredemption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\recyclemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\recyclemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\campaignrobotmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\campaignrobotmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\controllers\\recyclemachinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\controllers\\recyclemachinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\controllers\\robotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -135,10 +163,6 @@
       "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\data\\heniekendbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -153,10 +177,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\models\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\models\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -181,6 +201,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\heinekenrobot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\heinekenrobot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|c:\\users\\hoang thong\\desktop\\thuctap\\heinekenrobot\\heinekenrobot\\migrations\\20241120145019_addcreateddatetorewardrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C7CA3-B2BD-4BB9-8E9F-3930DF31B163}|HeinekenRobot\\HeinekenRobot.csproj|solutionrelative:heinekenrobot\\migrations\\20241120145019_addcreateddatetorewardrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -190,174 +214,215 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IGiftService.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\GiftFolder\\IGiftService.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\GiftFolder\\IGiftService.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\GiftFolder\\IGiftService.cs",
-              "RelativeToolTip": "HeinekenRobot\\Service\\GiftFolder\\IGiftService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T07:11:42.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GiftRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\GiftFolder\\GiftRepository.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\GiftFolder\\GiftRepository.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\GiftFolder\\GiftRepository.cs",
-              "RelativeToolTip": "HeinekenRobot\\Repository\\GiftFolder\\GiftRepository.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowCsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T07:08:24.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IGiftRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\GiftFolder\\IGiftRepository.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\GiftFolder\\IGiftRepository.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\GiftFolder\\IGiftRepository.cs",
-              "RelativeToolTip": "HeinekenRobot\\Repository\\GiftFolder\\IGiftRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T07:08:03.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LocationService.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\LocationFolder\\LocationService.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\LocationFolder\\LocationService.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\LocationFolder\\LocationService.cs",
-              "RelativeToolTip": "HeinekenRobot\\Service\\LocationFolder\\LocationService.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAswAEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T08:13:22.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GiftService.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\GiftFolder\\GiftService.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\GiftFolder\\GiftService.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\GiftFolder\\GiftService.cs",
-              "RelativeToolTip": "HeinekenRobot\\Service\\GiftFolder\\GiftService.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAA5wDsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T07:11:49.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GiftController.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\GiftController.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Controllers\\GiftController.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\GiftController.cs",
-              "RelativeToolTip": "HeinekenRobot\\Controllers\\GiftController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAowF4AAAAJAAAAAAAAAA==",
+              "Title": "RewardRuleService.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RewardRuleFolder\\RewardRuleService.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\RewardRuleFolder\\RewardRuleService.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RewardRuleFolder\\RewardRuleService.cs",
+              "RelativeToolTip": "HeinekenRobot\\Service\\RewardRuleFolder\\RewardRuleService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAxwE4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T07:14:40.681Z",
+              "WhenOpened": "2024-11-20T14:55:56.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LocationController.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\LocationController.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Controllers\\LocationController.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\LocationController.cs",
-              "RelativeToolTip": "HeinekenRobot\\Controllers\\LocationController.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAswAEAAAAqAAAAAAAAAA==",
+              "Title": "RewardRuleController.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\RewardRuleController.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Controllers\\RewardRuleController.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\RewardRuleController.cs",
+              "RelativeToolTip": "HeinekenRobot\\Controllers\\RewardRuleController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwFIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T08:22:20.546Z",
+              "WhenOpened": "2024-11-20T14:57:19.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ILocationService.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\LocationFolder\\ILocationService.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\LocationFolder\\ILocationService.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\LocationFolder\\ILocationService.cs",
-              "RelativeToolTip": "HeinekenRobot\\Service\\LocationFolder\\ILocationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IRewardRuleService.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RewardRuleFolder\\IRewardRuleService.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\RewardRuleFolder\\IRewardRuleService.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RewardRuleFolder\\IRewardRuleService.cs",
+              "RelativeToolTip": "HeinekenRobot\\Service\\RewardRuleFolder\\IRewardRuleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T08:12:19.687Z",
+              "WhenOpened": "2024-11-20T14:55:48.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LocationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\LocationFolder\\LocationRepository.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\LocationFolder\\LocationRepository.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\LocationFolder\\LocationRepository.cs",
-              "RelativeToolTip": "HeinekenRobot\\Repository\\LocationFolder\\LocationRepository.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowCkAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RewardRuleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RewardRuleFolder\\RewardRuleRepository.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\RewardRuleFolder\\RewardRuleRepository.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RewardRuleFolder\\RewardRuleRepository.cs",
+              "RelativeToolTip": "HeinekenRobot\\Repository\\RewardRuleFolder\\RewardRuleRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T08:05:53.891Z",
+              "WhenOpened": "2024-11-20T14:52:22.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ILocationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\LocationFolder\\ILocationRepository.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\LocationFolder\\ILocationRepository.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\LocationFolder\\ILocationRepository.cs",
-              "RelativeToolTip": "HeinekenRobot\\Repository\\LocationFolder\\ILocationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IRewardRuleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RewardRuleFolder\\IRewardRuleRepository.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\RewardRuleFolder\\IRewardRuleRepository.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RewardRuleFolder\\IRewardRuleRepository.cs",
+              "RelativeToolTip": "HeinekenRobot\\Repository\\RewardRuleFolder\\IRewardRuleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T08:05:26.361Z",
+              "WhenOpened": "2024-11-20T14:52:12.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "RewardRule.cs",
               "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\RewardRule.cs",
               "RelativeDocumentMoniker": "HeinekenRobot\\Models\\RewardRule.cs",
               "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\RewardRule.cs",
               "RelativeToolTip": "HeinekenRobot\\Models\\RewardRule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T13:44:27.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Program.cs",
               "RelativeDocumentMoniker": "HeinekenRobot\\Program.cs",
               "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Program.cs",
               "RelativeToolTip": "HeinekenRobot\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T14:40:34.65Z"
+              "WhenOpened": "2024-10-30T14:40:34.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GiftService.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\GiftFolder\\GiftService.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\GiftFolder\\GiftService.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\GiftFolder\\GiftService.cs",
+              "RelativeToolTip": "HeinekenRobot\\Service\\GiftFolder\\GiftService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:11:49.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LocationController.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\LocationController.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Controllers\\LocationController.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\LocationController.cs",
+              "RelativeToolTip": "HeinekenRobot\\Controllers\\LocationController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA3wAEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T08:22:20.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GiftController.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\GiftController.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Controllers\\GiftController.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\GiftController.cs",
+              "RelativeToolTip": "HeinekenRobot\\Controllers\\GiftController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwF4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:14:40.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Robot.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Robot.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\Robot.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Robot.cs",
+              "RelativeToolTip": "HeinekenRobot\\Models\\Robot.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T13:53:06.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RecycleMachineController.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\RecycleMachineController.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Controllers\\RecycleMachineController.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\RecycleMachineController.cs",
+              "RelativeToolTip": "HeinekenRobot\\Controllers\\RecycleMachineController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:27:46.59Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "20241119070506_database.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Migrations\\20241119070506_database.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Migrations\\20241119070506_database.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Migrations\\20241119070506_database.cs",
-              "RelativeToolTip": "HeinekenRobot\\Migrations\\20241119070506_database.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Title": "GiftRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\GiftFolder\\GiftRepository.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\GiftFolder\\GiftRepository.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\GiftFolder\\GiftRepository.cs",
+              "RelativeToolTip": "HeinekenRobot\\Repository\\GiftFolder\\GiftRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwC4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T07:05:07.677Z"
+              "WhenOpened": "2024-11-19T07:08:24.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGiftRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\GiftFolder\\IGiftRepository.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\GiftFolder\\IGiftRepository.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\GiftFolder\\IGiftRepository.cs",
+              "RelativeToolTip": "HeinekenRobot\\Repository\\GiftFolder\\IGiftRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:08:03.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RecycleMachine.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\RecycleMachine.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\RecycleMachine.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\RecycleMachine.cs",
+              "RelativeToolTip": "HeinekenRobot\\Models\\RecycleMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T08:15:30.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Region.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Region.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\Region.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Region.cs",
+              "RelativeToolTip": "HeinekenRobot\\Models\\Region.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T13:35:46.359Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -373,90 +438,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Location.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Location.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\Location.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Location.cs",
-              "RelativeToolTip": "HeinekenRobot\\Models\\Location.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAiwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T13:50:41.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RecycleMachine.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\RecycleMachine.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\RecycleMachine.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\RecycleMachine.cs",
-              "RelativeToolTip": "HeinekenRobot\\Models\\RecycleMachine.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T08:15:30.075Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Region.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Region.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\Region.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Region.cs",
-              "RelativeToolTip": "HeinekenRobot\\Models\\Region.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T13:35:46.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\appsettings.json",
-              "RelativeDocumentMoniker": "HeinekenRobot\\appsettings.json",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\appsettings.json",
-              "RelativeToolTip": "HeinekenRobot\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-30T14:39:44.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Customer.cs",
-              "RelativeToolTip": "HeinekenRobot\\Models\\Customer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T13:48:21.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "HeinekenRobot\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\appsettings.Development.json",
-              "RelativeToolTip": "HeinekenRobot\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-03T14:14:07.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CampaignRobotMachine.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\CampaignRobotMachine.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\CampaignRobotMachine.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\CampaignRobotMachine.cs",
-              "RelativeToolTip": "HeinekenRobot\\Models\\CampaignRobotMachine.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowAwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T13:43:35.221Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 17,
               "Title": "GiftRedemption.cs",
               "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\GiftRedemption.cs",
@@ -469,199 +450,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "RobotController.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\RobotController.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Controllers\\RobotController.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\RobotController.cs",
-              "RelativeToolTip": "HeinekenRobot\\Controllers\\RobotController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T03:28:13.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RecycleMachineController.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\RecycleMachineController.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Controllers\\RecycleMachineController.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\RecycleMachineController.cs",
-              "RelativeToolTip": "HeinekenRobot\\Controllers\\RecycleMachineController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T08:27:46.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "RobotService.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RobotFolder\\RobotService.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\RobotFolder\\RobotService.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RobotFolder\\RobotService.cs",
-              "RelativeToolTip": "HeinekenRobot\\Service\\RobotFolder\\RobotService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T03:24:06.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IRobotService.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RobotFolder\\IRobotService.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\RobotFolder\\IRobotService.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RobotFolder\\IRobotService.cs",
-              "RelativeToolTip": "HeinekenRobot\\Service\\RobotFolder\\IRobotService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T03:23:31.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "RecycleMachineService.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RecycleMachineFolder\\RecycleMachineService.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\RecycleMachineFolder\\RecycleMachineService.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RecycleMachineFolder\\RecycleMachineService.cs",
-              "RelativeToolTip": "HeinekenRobot\\Service\\RecycleMachineFolder\\RecycleMachineService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T08:26:08.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IRecycleMachineService.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RecycleMachineFolder\\IRecycleMachineService.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\RecycleMachineFolder\\IRecycleMachineService.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RecycleMachineFolder\\IRecycleMachineService.cs",
-              "RelativeToolTip": "HeinekenRobot\\Service\\RecycleMachineFolder\\IRecycleMachineService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T08:25:40.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "RobotRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RobotFolder\\RobotRepository.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\RobotFolder\\RobotRepository.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RobotFolder\\RobotRepository.cs",
-              "RelativeToolTip": "HeinekenRobot\\Repository\\RobotFolder\\RobotRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T03:18:14.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IRobotRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RobotFolder\\IRobotRepository.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\RobotFolder\\IRobotRepository.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RobotFolder\\IRobotRepository.cs",
-              "RelativeToolTip": "HeinekenRobot\\Repository\\RobotFolder\\IRobotRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T03:17:12.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IRecycleMachineRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RecycleMachineFolder\\IRecycleMachineRepository.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\RecycleMachineFolder\\IRecycleMachineRepository.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RecycleMachineFolder\\IRecycleMachineRepository.cs",
-              "RelativeToolTip": "HeinekenRobot\\Repository\\RecycleMachineFolder\\IRecycleMachineRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T08:22:20.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "RecycleMachineRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RecycleMachineFolder\\RecycleMachineRepository.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\RecycleMachineFolder\\RecycleMachineRepository.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RecycleMachineFolder\\RecycleMachineRepository.cs",
-              "RelativeToolTip": "HeinekenRobot\\Repository\\RecycleMachineFolder\\RecycleMachineRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T08:23:17.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "HeniekenDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Data\\HeniekenDbContext.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Data\\HeniekenDbContext.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Data\\HeniekenDbContext.cs",
-              "RelativeToolTip": "HeinekenRobot\\Data\\HeniekenDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T14:35:51.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Robot.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Robot.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\Robot.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Robot.cs",
-              "RelativeToolTip": "HeinekenRobot\\Models\\Robot.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T13:53:06.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "RobotType.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\RobotType.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\RobotType.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\RobotType.cs",
-              "RelativeToolTip": "HeinekenRobot\\Models\\RobotType.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T03:54:01.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\Transaction.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Transaction.cs",
-              "RelativeToolTip": "HeinekenRobot\\Models\\Transaction.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T13:47:47.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\User.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\User.cs",
-              "RelativeToolTip": "HeinekenRobot\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T13:44:54.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "HeinekenRobot\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\WeatherForecast.cs",
-              "RelativeToolTip": "HeinekenRobot\\WeatherForecast.cs",
+              "DocumentIndex": 50,
+              "Title": "20241120145019_AddCreatedDateToRewardRule.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Migrations\\20241120145019_AddCreatedDateToRewardRule.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Migrations\\20241120145019_AddCreatedDateToRewardRule.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Migrations\\20241120145019_AddCreatedDateToRewardRule.cs",
+              "RelativeToolTip": "HeinekenRobot\\Migrations\\20241120145019_AddCreatedDateToRewardRule.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T13:22:35.342Z"
+              "WhenOpened": "2024-11-20T14:50:19.666Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 19,
               "Title": "Campaign.cs",
               "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Campaign.cs",
               "RelativeDocumentMoniker": "HeinekenRobot\\Models\\Campaign.cs",
@@ -673,7 +474,307 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LocationService.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\LocationFolder\\LocationService.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\LocationFolder\\LocationService.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\LocationFolder\\LocationService.cs",
+              "RelativeToolTip": "HeinekenRobot\\Service\\LocationFolder\\LocationService.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswAEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T08:13:22.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\Location.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Location.cs",
+              "RelativeToolTip": "HeinekenRobot\\Models\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T13:50:41.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IGiftService.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\GiftFolder\\IGiftService.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\GiftFolder\\IGiftService.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\GiftFolder\\IGiftService.cs",
+              "RelativeToolTip": "HeinekenRobot\\Service\\GiftFolder\\IGiftService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:11:42.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ILocationService.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\LocationFolder\\ILocationService.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\LocationFolder\\ILocationService.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\LocationFolder\\ILocationService.cs",
+              "RelativeToolTip": "HeinekenRobot\\Service\\LocationFolder\\ILocationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T08:12:19.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LocationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\LocationFolder\\LocationRepository.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\LocationFolder\\LocationRepository.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\LocationFolder\\LocationRepository.cs",
+              "RelativeToolTip": "HeinekenRobot\\Repository\\LocationFolder\\LocationRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowCkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T08:05:53.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ILocationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\LocationFolder\\ILocationRepository.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\LocationFolder\\ILocationRepository.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\LocationFolder\\ILocationRepository.cs",
+              "RelativeToolTip": "HeinekenRobot\\Repository\\LocationFolder\\ILocationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T08:05:26.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20241119070506_database.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Migrations\\20241119070506_database.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Migrations\\20241119070506_database.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Migrations\\20241119070506_database.cs",
+              "RelativeToolTip": "HeinekenRobot\\Migrations\\20241119070506_database.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:05:07.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\appsettings.json",
+              "RelativeDocumentMoniker": "HeinekenRobot\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\appsettings.json",
+              "RelativeToolTip": "HeinekenRobot\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T14:39:44.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Customer.cs",
+              "RelativeToolTip": "HeinekenRobot\\Models\\Customer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:48:21.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "HeinekenRobot\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\appsettings.Development.json",
+              "RelativeToolTip": "HeinekenRobot\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-03T14:14:07.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CampaignRobotMachine.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\CampaignRobotMachine.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\CampaignRobotMachine.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\CampaignRobotMachine.cs",
+              "RelativeToolTip": "HeinekenRobot\\Models\\CampaignRobotMachine.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:43:35.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RobotController.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\RobotController.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Controllers\\RobotController.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\RobotController.cs",
+              "RelativeToolTip": "HeinekenRobot\\Controllers\\RobotController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T03:28:13.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RobotService.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RobotFolder\\RobotService.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\RobotFolder\\RobotService.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RobotFolder\\RobotService.cs",
+              "RelativeToolTip": "HeinekenRobot\\Service\\RobotFolder\\RobotService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T03:24:06.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IRobotService.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RobotFolder\\IRobotService.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\RobotFolder\\IRobotService.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RobotFolder\\IRobotService.cs",
+              "RelativeToolTip": "HeinekenRobot\\Service\\RobotFolder\\IRobotService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T03:23:31.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RecycleMachineService.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RecycleMachineFolder\\RecycleMachineService.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\RecycleMachineFolder\\RecycleMachineService.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RecycleMachineFolder\\RecycleMachineService.cs",
+              "RelativeToolTip": "HeinekenRobot\\Service\\RecycleMachineFolder\\RecycleMachineService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:26:08.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IRecycleMachineService.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RecycleMachineFolder\\IRecycleMachineService.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Service\\RecycleMachineFolder\\IRecycleMachineService.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Service\\RecycleMachineFolder\\IRecycleMachineService.cs",
+              "RelativeToolTip": "HeinekenRobot\\Service\\RecycleMachineFolder\\IRecycleMachineService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:25:40.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RobotRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RobotFolder\\RobotRepository.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\RobotFolder\\RobotRepository.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RobotFolder\\RobotRepository.cs",
+              "RelativeToolTip": "HeinekenRobot\\Repository\\RobotFolder\\RobotRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T03:18:14.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IRobotRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RobotFolder\\IRobotRepository.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\RobotFolder\\IRobotRepository.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RobotFolder\\IRobotRepository.cs",
+              "RelativeToolTip": "HeinekenRobot\\Repository\\RobotFolder\\IRobotRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T03:17:12.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IRecycleMachineRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RecycleMachineFolder\\IRecycleMachineRepository.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\RecycleMachineFolder\\IRecycleMachineRepository.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RecycleMachineFolder\\IRecycleMachineRepository.cs",
+              "RelativeToolTip": "HeinekenRobot\\Repository\\RecycleMachineFolder\\IRecycleMachineRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:22:20.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RecycleMachineRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RecycleMachineFolder\\RecycleMachineRepository.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Repository\\RecycleMachineFolder\\RecycleMachineRepository.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Repository\\RecycleMachineFolder\\RecycleMachineRepository.cs",
+              "RelativeToolTip": "HeinekenRobot\\Repository\\RecycleMachineFolder\\RecycleMachineRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:23:17.246Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 39,
+              "Title": "HeniekenDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Data\\HeniekenDbContext.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Data\\HeniekenDbContext.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Data\\HeniekenDbContext.cs",
+              "RelativeToolTip": "HeinekenRobot\\Data\\HeniekenDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:35:51.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RobotType.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\RobotType.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\RobotType.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\RobotType.cs",
+              "RelativeToolTip": "HeinekenRobot\\Models\\RobotType.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:54:01.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\Transaction.cs",
+              "RelativeToolTip": "HeinekenRobot\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:47:47.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\User.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Models\\User.cs",
+              "RelativeToolTip": "HeinekenRobot\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:44:54.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "HeinekenRobot\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\WeatherForecast.cs",
+              "RelativeToolTip": "HeinekenRobot\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:22:35.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "HeinekenRobot\\Controllers\\WeatherForecastController.cs",
@@ -685,7 +786,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "20241106033804_UpdateModel.cs",
               "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Migrations\\20241106033804_UpdateModel.cs",
               "RelativeDocumentMoniker": "HeinekenRobot\\Migrations\\20241106033804_UpdateModel.cs",
@@ -697,7 +798,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "20241106033258_UpdateModel.cs",
               "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Migrations\\20241106033258_UpdateModel.cs",
               "RelativeDocumentMoniker": "HeinekenRobot\\Migrations\\20241106033258_UpdateModel.cs",
@@ -709,7 +810,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "20241103142354_AddNewModels.cs",
               "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Migrations\\20241103142354_AddNewModels.cs",
               "RelativeDocumentMoniker": "HeinekenRobot\\Migrations\\20241103142354_AddNewModels.cs",
@@ -721,7 +822,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "20241103140329_AddNewModels.cs",
               "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\Migrations\\20241103140329_AddNewModels.cs",
               "RelativeDocumentMoniker": "HeinekenRobot\\Migrations\\20241103140329_AddNewModels.cs",
@@ -733,7 +834,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "HeinekenRobot.csproj",
               "DocumentMoniker": "C:\\Users\\Hoang Thong\\Desktop\\ThucTap\\HeinekenRobot\\HeinekenRobot\\HeinekenRobot.csproj",
               "RelativeDocumentMoniker": "HeinekenRobot\\HeinekenRobot.csproj",

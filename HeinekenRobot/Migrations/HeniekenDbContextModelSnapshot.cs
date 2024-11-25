@@ -294,6 +294,9 @@ namespace HeinekenRobot.Migrations
                     b.Property<int>("CampaignId")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<decimal>("GiftChance")
                         .HasColumnType("decimal(18,2)");
 

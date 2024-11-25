@@ -9,5 +9,7 @@ namespace HeinekenRobot.Repository.GiftFolder
         Task<Gift?> GetGiftById(int giftId);
         Task UpdateGift(Gift gift);
         Task<bool> DeleteGift(int giftId);
+
+      
     }
 }

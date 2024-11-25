@@ -237,6 +237,69 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HeinekenRobot.Controllers.RewardRuleController",
+    "Method": "AddRewardRule",
+    "RelativePath": "api/RewardRule/AddRewardRule",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rewardRule",
+        "Type": "HeinekenRobot.Models.RewardRule",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.RewardRuleController",
+    "Method": "GetRewardRule",
+    "RelativePath": "api/RewardRule/GetRewardRuleDetail/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.RewardRuleController",
+    "Method": "GetRewardRules",
+    "RelativePath": "api/RewardRule/GetRewardRules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.RewardRuleController",
+    "Method": "UpdateRewardRule",
+    "RelativePath": "api/RewardRule/UpdateRewardRule/{ruleId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ruleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedRule",
+        "Type": "HeinekenRobot.Models.RewardRule",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HeinekenRobot.Controllers.RobotController",
     "Method": "PostRobot",
     "RelativePath": "api/Robot/AddRobot",

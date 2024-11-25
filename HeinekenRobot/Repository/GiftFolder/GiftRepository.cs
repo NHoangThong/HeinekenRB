@@ -42,5 +42,8 @@ namespace HeinekenRobot.Repository.GiftFolder
             await _context.SaveChangesAsync();
             return true;
         }
+
+        // Lấy danh sách các quà tặng dựa trên danh sách GiftId
+      
     }
 }
