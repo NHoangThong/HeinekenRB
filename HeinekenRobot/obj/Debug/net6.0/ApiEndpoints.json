@@ -1,5 +1,84 @@
 [
   {
+    "ContainingType": "HeinekenRobot.Controllers.CampaignController",
+    "Method": "AddCampaign",
+    "RelativePath": "api/Campaign/AddCampaign",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "campaign",
+        "Type": "HeinekenRobot.Models.Campaign",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.CampaignController",
+    "Method": "DeleteCampaign",
+    "RelativePath": "api/Campaign/DeleteCampaign/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.CampaignController",
+    "Method": "GetCampaignDetails",
+    "RelativePath": "api/Campaign/GetCampaignDetails/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.CampaignController",
+    "Method": "GetOperationalCampaigns",
+    "RelativePath": "api/Campaign/GetOperationalCampaigns",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.CampaignController",
+    "Method": "UpdateCampaign",
+    "RelativePath": "api/Campaign/UpdateCampaign/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedCampaign",
+        "Type": "HeinekenRobot.Models.Campaign",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HeinekenRobot.Controllers.GiftController",
     "Method": "AddGift",
     "RelativePath": "api/Gift/AddGift",
@@ -237,6 +316,85 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HeinekenRobot.Controllers.RegionController",
+    "Method": "AddRegion",
+    "RelativePath": "api/Region/AddRegion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "region",
+        "Type": "HeinekenRobot.Models.Region",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.RegionController",
+    "Method": "DeleteRegion",
+    "RelativePath": "api/Region/DeleteRegion/{regionId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "regionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.RegionController",
+    "Method": "GetAllRegions",
+    "RelativePath": "api/Region/GetAllRegions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.RegionController",
+    "Method": "GetRegion",
+    "RelativePath": "api/Region/GetRegion/{regionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "regionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.RegionController",
+    "Method": "UpdateRegion",
+    "RelativePath": "api/Region/UpdateRegion/{regionId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "regionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedRegion",
+        "Type": "HeinekenRobot.Models.Region",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HeinekenRobot.Controllers.RewardRuleController",
     "Method": "AddRewardRule",
     "RelativePath": "api/RewardRule/AddRewardRule",
@@ -247,6 +405,22 @@
       {
         "Name": "rewardRule",
         "Type": "HeinekenRobot.Models.RewardRule",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeinekenRobot.Controllers.RewardRuleController",
+    "Method": "DeleteRewardRule",
+    "RelativePath": "api/RewardRule/DeleteRewardRule/{ruleId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ruleId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

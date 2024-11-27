@@ -178,6 +178,9 @@ namespace HeinekenRobot.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("RecycleMachineMachineId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<DateTime?>("RedeemedAt")
                         .HasColumnType("datetime2");
 
@@ -196,6 +199,8 @@ namespace HeinekenRobot.Migrations
                     b.HasIndex("CampaignId");
 
                     b.HasIndex("GiftId");
+
+                    b.HasIndex("RecycleMachineMachineId");
 
                     b.HasIndex("UserId");
 
@@ -520,6 +525,10 @@ namespace HeinekenRobot.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("HeinekenRobot.Models.RecycleMachine", null)
+                        .WithMany("GiftRedemptions")
+                        .HasForeignKey("RecycleMachineMachineId");
+
                     b.HasOne("HeinekenRobot.Models.User", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
@@ -558,7 +567,7 @@ namespace HeinekenRobot.Migrations
             modelBuilder.Entity("HeinekenRobot.Models.RewardRule", b =>
                 {
                     b.HasOne("HeinekenRobot.Models.Campaign", "Campaign")
-                        .WithMany()
+                        .WithMany("RewardRules")
                         .HasForeignKey("CampaignId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -651,6 +660,8 @@ namespace HeinekenRobot.Migrations
             modelBuilder.Entity("HeinekenRobot.Models.Campaign", b =>
                 {
                     b.Navigation("CampaignRobotMachines");
+
+                    b.Navigation("RewardRules");
                 });
 
             modelBuilder.Entity("HeinekenRobot.Models.Customer", b =>
@@ -677,6 +688,8 @@ namespace HeinekenRobot.Migrations
             modelBuilder.Entity("HeinekenRobot.Models.RecycleMachine", b =>
                 {
                     b.Navigation("CampaignRobotMachines");
+
+                    b.Navigation("GiftRedemptions");
                 });
 
             modelBuilder.Entity("HeinekenRobot.Models.Region", b =>

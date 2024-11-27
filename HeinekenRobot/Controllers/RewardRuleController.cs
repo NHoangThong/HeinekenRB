@@ -81,5 +81,27 @@ namespace HeinekenRobot.Controllers
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
+
+        [HttpDelete("DeleteRewardRule/{ruleId}")]
+        public async Task<IActionResult> DeleteRewardRule(int ruleId)
+        {
+            try
+            {
+                await _service.DeleteRewardRule(ruleId);
+                return Ok("Reward rule deleted successfully.");
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(new { error = ex.Message });
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { error = $"Internal server error: {ex.Message}" });
+            }
+        }
     }
 }

@@ -77,5 +77,24 @@ namespace HeinekenRobot.Service.RewardRuleFolder
             // Cập nhật quy tắc
             await _repository.UpdateRewardRule(existingRule);
         }
+
+        public async Task DeleteRewardRule(int ruleId)
+        {
+            // Lấy thông tin quy tắc
+            var rewardRule = await _repository.GetRewardRuleById(ruleId);
+            if (rewardRule == null)
+            {
+                throw new KeyNotFoundException("Reward rule not found.");
+            }
+
+            // Kiểm tra nếu quy tắc đang được sử dụng
+            if (await _repository.IsRuleUsedInCampaign(rewardRule.CampaignId))
+            {
+                throw new InvalidOperationException("Cannot delete reward rule because it is used in a campaign.");
+            }
+
+            // Xóa quy tắc
+            await _repository.DeleteRewardRule(rewardRule);
+        }
     }   
 }

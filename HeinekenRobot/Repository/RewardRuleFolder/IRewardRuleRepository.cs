@@ -8,5 +8,7 @@ namespace HeinekenRobot.Repository.RewardRuleFolder
         Task AddRewardRule(RewardRule rewardRule);
         Task<RewardRule?> GetRewardRuleById(int ruleId);
         Task UpdateRewardRule(RewardRule rewardRule);
+        Task<bool> IsRuleUsedInCampaign(int campaignId);
+        Task DeleteRewardRule(RewardRule rewardRule);
     }
 }

@@ -51,5 +51,17 @@ namespace HeinekenRobot.Repository.RewardRuleFolder
             await _context.SaveChangesAsync();
         }
 
+
+        public async Task DeleteRewardRule(RewardRule rewardRule)
+        {
+            _context.RewardRules.Remove(rewardRule);
+            await _context.SaveChangesAsync();
+        }
+        public async Task<bool> IsRuleUsedInCampaign(int campaignId)
+        {
+          
+            return await _context.CampaignRobotMachines.AnyAsync(crm => crm.CampaignId == campaignId);
+        }
+
     }
 }

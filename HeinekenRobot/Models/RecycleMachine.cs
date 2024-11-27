@@ -18,5 +18,6 @@ namespace HeinekenRobot.Models
         public Location? Location { get; set; }
 
         public virtual ICollection<CampaignRobotMachine> CampaignRobotMachines { get; set; } = new List<CampaignRobotMachine>();
+        public virtual ICollection<GiftRedemption> GiftRedemptions { get; set; } = new List<GiftRedemption>();
     }
 }
