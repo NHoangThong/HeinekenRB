@@ -18,7 +18,7 @@ namespace HeinekenRobot.Data
         public DbSet<GiftRedemption> GiftRedemptions { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
         public DbSet<Customer> Customers { get; set; }
-
+        public DbSet<Role> Roles { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 

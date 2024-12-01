@@ -6,6 +6,8 @@ using HeinekenRobot.Repository.RecycleMachineFolder;
 using HeinekenRobot.Repository.RegionFolder;
 using HeinekenRobot.Repository.RewardRuleFolder;
 using HeinekenRobot.Repository.RobotFolder;
+using HeinekenRobot.Repository.RoleFolder;
+using HeinekenRobot.Repository.UserFolder;
 using HeinekenRobot.Service.CampaignFolder;
 using HeinekenRobot.Service.GiftFolder;
 using HeinekenRobot.Service.LocationFolder;
@@ -13,6 +15,8 @@ using HeinekenRobot.Service.RecycleMachineFolder;
 using HeinekenRobot.Service.RegionFolder;
 using HeinekenRobot.Service.RewardRuleFolder;
 using HeinekenRobot.Service.RobotFolder;
+using HeinekenRobot.Service.RoleFolder;
+using HeinekenRobot.Service.UserFolder;
 using Microsoft.EntityFrameworkCore;
 using System;
 var builder = WebApplication.CreateBuilder(args);
@@ -49,6 +53,16 @@ builder.Services.AddScoped<ICampaignService, CampaignService>();
 //Region
 builder.Services.AddScoped<IRegionService, RegionService>();
 builder.Services.AddScoped<IRegionRepository, RegionRepository>();
+
+//User
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+//Role
+builder.Services.AddScoped<IRoleService, RoleService>();
+builder.Services.AddScoped<IRoleRepository, RoleRepository>();
+
+
 
 builder.Services.AddControllers()
     .AddJsonOptions(options =>

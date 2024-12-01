@@ -377,6 +377,27 @@ namespace HeinekenRobot.Migrations
                     b.ToTable("RobotType");
                 });
 
+            modelBuilder.Entity("HeinekenRobot.Models.Role", b =>
+                {
+                    b.Property<int>("RoleId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoleId"), 1L, 1);
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RoleName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("RoleId");
+
+                    b.ToTable("Roles");
+                });
+
             modelBuilder.Entity("HeinekenRobot.Models.Transaction", b =>
                 {
                     b.Property<int>("TransactionId")
@@ -452,15 +473,16 @@ namespace HeinekenRobot.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Role")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("UserId");
+
+                    b.HasIndex("RoleId");
 
                     b.ToTable("Users");
                 });
@@ -657,6 +679,17 @@ namespace HeinekenRobot.Migrations
                     b.Navigation("Robot");
                 });
 
+            modelBuilder.Entity("HeinekenRobot.Models.User", b =>
+                {
+                    b.HasOne("HeinekenRobot.Models.Role", "Role")
+                        .WithMany("Users")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Role");
+                });
+
             modelBuilder.Entity("HeinekenRobot.Models.Campaign", b =>
                 {
                     b.Navigation("CampaignRobotMachines");
@@ -705,6 +738,11 @@ namespace HeinekenRobot.Migrations
             modelBuilder.Entity("HeinekenRobot.Models.RobotType", b =>
                 {
                     b.Navigation("Robots");
+                });
+
+            modelBuilder.Entity("HeinekenRobot.Models.Role", b =>
+                {
+                    b.Navigation("Users");
                 });
 #pragma warning restore 612, 618
         }
